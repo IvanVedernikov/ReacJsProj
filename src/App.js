@@ -6,7 +6,10 @@ export default function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
-      <button> press me </button>
+      <button onClick={handleClick}> press me </button>
     </div>
   );
+  function handleClick() {
+    alert("you press button");
+  }
 }
