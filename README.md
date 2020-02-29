@@ -1,2 +1,0 @@
-# ReacJsProj
-Created with CodeSandbox
